@@ -1,0 +1,14 @@
+{
+  "name": "example-app",
+  "type": "module",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "the-library": "workspace:*"
+  },
+  "devDependencies": {
+    "webpack": "^5.86.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

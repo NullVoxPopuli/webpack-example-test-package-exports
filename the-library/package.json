@@ -1,0 +1,13 @@
+{
+  "name": "the-library",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    },
+    "./another": {
+      "import": "./src/another.js"
+    }
+  }
+}
